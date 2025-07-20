@@ -1,0 +1,81 @@
+﻿@model IEnumerable<EpicPanels_Group5_FinalProject.Models.CartItem>
+@{
+    ViewData["Title"] = "Cart";
+    var subtotal = Model.Sum(item => item.Price * item.Quantity);
+    var hst = subtotal * 0.10M;
+    var total = subtotal + hst;
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4">Your Cart</h1>
+
+    @if (!Model.Any())
+    {
+        <p class="text-center">Your cart is empty.</p>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Comic</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><img src="@item.ImageURL" alt="@item.Name" class="img-fluid" style="max-width: 100px;"></td>
+                        <td>@item.Name</td>
+                        <td>$@item.Price</td>
+                        <td>
+                            <form asp-action="UpdateCartItem" method="post" class="d-flex">
+                                <input type="hidden" name="ProductID" value="@item.ProductID" />
+                                <input type="number" name="Quantity" value="@item.Quantity" min="1" max="10" class="form-control me-2" />
+                                <button type="submit" class="btn btn-primary">Update</button>
+                            </form>
+                        </td>
+
+                        <td>$@(item.Price * item.Quantity)</td>
+                        <td>
+                            <form asp-action="RemoveCartItem" method="post">
+                                <input type="hidden" name="ProductID" value="@item.ProductID" />
+                                <button type="submit" class="btn btn-danger">Remove</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-end">
+            <h4>Subtotal: $@subtotal</h4>
+            <h4>HST (10%): $@hst</h4>
+            <h3>Total: $@total</h3>
+        </div>
+
+        @if (User.Identity?.IsAuthenticated == true && Model.Any())
+        {
+            <div class="text-end mt-4">
+                <a href="/Comics/Checkout" class="btn btn-success">Checkout</a>
+            </div>
+        }
+        else if (!User.Identity?.IsAuthenticated ?? true)
+        {
+            <div class="text-end mt-4">
+                <p class="text-danger">Please <a href="/Account/Login">log in</a> to proceed to checkout.</p>
+            </div>
+        }
+        else
+        {
+            <div class="text-end mt-4">
+                <p class="text-danger">Your cart is empty. Add items to proceed to checkout.</p>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    ViewData["Heading"] = "Login";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+        <div class="text-center mb-4">
+            <img src="/images/logo.png" alt="Epic Panels Logo" style="width: 150px;">
+        </div>
+        <div class="text-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+
+        <form asp-controller="Account" asp-action="Login" method="post">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="password" name="Password" placeholder="Password" required>
+                <label for="password">Password</label>
+            </div>
+            <button type="submit" class="btn btn-danger w-100" style="background-color: #ff0000;">Login</button>
+            <p class="text-center mt-3">
+                Don't have an account? <a href="/Account/Signup">Signup</a>
+            </p>
+        </form>
+    </div>
+</div>

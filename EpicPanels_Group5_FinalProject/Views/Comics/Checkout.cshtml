@@ -1,0 +1,86 @@
+﻿@model EpicPanels_Group5_FinalProject.Models.CheckoutModel
+
+@{
+    ViewData["Title"] = "Checkout";
+    var subtotal = Model.OrderItems.Sum(item => item.Price * item.Quantity);
+    var hst = subtotal * 0.10M;
+    var total = subtotal + hst;
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4">Checkout</h1>
+
+    <form asp-action="ProcessCheckout" method="post" novalidate>
+        <div class="row">
+            <!-- Billing and Shipping Details -->
+            <div class="col-md-6">
+                <h4>Billing Information</h4>
+                <div class="mb-3">
+                    <label for="FullName" class="form-label">Full Name</label>
+                    <input asp-for="FullName" class="form-control" id="FullName" placeholder="John Doe" required />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" id="Email" placeholder="email@example.com" type="email" required />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="Phone" class="form-label">Phone Number</label>
+                    <input asp-for="Phone" class="form-control" id="Phone" placeholder="123-456-7890" type="tel" required />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <h4 class="mt-4">Shipping Address</h4>
+                <div class="mb-3">
+                    <label for="Address" class="form-label">Address</label>
+                    <input asp-for="Address" class="form-control" id="Address" placeholder="123 Street Name" required />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="City" class="form-label">City</label>
+                    <input asp-for="City" class="form-control" id="City" placeholder="City Name" required />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="PostalCode" class="form-label">Postal Code</label>
+                    <input asp-for="PostalCode" class="form-control" id="PostalCode" placeholder="123456" required />
+                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Order Summary and Payment Details -->
+            <div class="col-md-6">
+               
+
+                <h4 class="mt-4">Payment Details</h4>
+                <div class="mb-3">
+                    <label for="CardNumber" class="form-label">Card Number</label>
+                    <input asp-for="CardNumber" class="form-control" id="CardNumber" placeholder="1234 5678 9012 3456" maxlength="16" required />
+                    <span asp-validation-for="CardNumber" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="CardHolderName" class="form-label">Cardholder Name</label>
+                    <input asp-for="CardHolderName" class="form-control" id="CardHolderName" placeholder="Name on Card" required />
+                    <span asp-validation-for="CardHolderName" class="text-danger"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="ExpiryDate" class="form-label">Expiry Date</label>
+                        <input asp-for="ExpiryDate" class="form-control" id="ExpiryDate" placeholder="MM/YY" maxlength="5" required />
+                        <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="CVV" class="form-label">CVV</label>
+                        <input asp-for="CVV" class="form-control" id="CVV" placeholder="123" maxlength="3" type="password" required />
+                        <span asp-validation-for="CVV" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-end mt-4">
+            <button type="submit" class="btn btn-success">Place Order</button>
+        </div>
+    </form>
+</div>

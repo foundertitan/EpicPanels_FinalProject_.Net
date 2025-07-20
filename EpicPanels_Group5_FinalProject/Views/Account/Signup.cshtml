@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Signup";
+    ViewData["Heading"] = "Signup";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+        <div class="text-center mb-4">
+            <img src="/images/logo.png" alt="Epic Panels Logo" style="width: 150px;">
+        </div>
+        <div class="text-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+
+        <form asp-controller="Account" asp-action="Signup" method="post">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" name="Name" placeholder="Full Name" required>
+                <label for="name">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="password" name="Password" placeholder="Password" required>
+                <label for="password">Password</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" placeholder="Confirm Password" required>
+                <label for="confirmPassword">Confirm Password</label>
+            </div>
+            <button type="submit" class="btn btn-danger w-100" style="background-color: #ff0000;">Signup</button>
+            <p class="text-center mt-3">
+                Already have an account? <a href="/Account/Login">Login</a>
+            </p>
+        </form>
+    </div>
+</div>

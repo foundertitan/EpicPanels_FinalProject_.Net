@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EpicPanels_Group5_FinalProject.props" />
+</Project>

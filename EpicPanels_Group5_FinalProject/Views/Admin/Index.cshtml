@@ -1,0 +1,304 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    var orders = ViewBag.Orders as IEnumerable<EpicPanels_Group5_FinalProject.Models.Order>;
+    var products = ViewBag.Products as IEnumerable<EpicPanels_Group5_FinalProject.Models.Product>;
+    var categories = ViewBag.Categories as IEnumerable<EpicPanels_Group5_FinalProject.Models.Category>;
+    var users = ViewBag.Users as IEnumerable<EpicPanels_Group5_FinalProject.Models.User>;
+    var reviews = ViewBag.Reviews as IEnumerable<EpicPanels_Group5_FinalProject.Models.CustomerReview>;
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4">Admin Dashboard</h1>
+
+    <h2>Orders</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>User</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Update Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in orders)
+            {
+                <tr>
+                    <td>@order.OrderID</td>
+                    <td>@order.User?.Name</td>
+                    <td>₹@order.TotalAmount</td>
+                    <td>@order.Status</td>
+                    <td>
+                        <form asp-action="UpdateOrderStatus" method="post" class="d-flex">
+                            <input type="hidden" name="orderId" value="@order.OrderID" />
+                            <select name="status" class="form-select">
+                                <option value="Pending" selected="@(order.Status == "Pending")">Pending</option>
+                                <option value="Completed" selected="@(order.Status == "Completed")">Completed</option>
+                                <option value="Cancelled" selected="@(order.Status == "Cancelled")">Cancelled</option>
+                            </select>
+
+                            <button type="submit" class="btn btn-primary ms-2">Update</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Products</h2>
+    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addProductModal">
+        Add Product
+    </button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Description</th>
+                <th>Image URL</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <form asp-action="UpdateProduct" method="post">
+                        <input type="hidden" name="ProductID" value="@product.ProductID" />
+                    <td>
+                        <input type="text" name="Name" value="@product.Name" class="form-control" />
+                    </td>
+                    <td>
+                        <select name="CategoryID" class="form-select">
+                                @foreach (var category in categories)
+                                {
+                                <option value="@category.CategoryID" selected="@(product.CategoryID == category.CategoryID)">
+                                        @category.CategoryName
+                                </option>
+                                }
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="Author" value="@product.Author" class="form-control" />
+                    </td>
+                    <td>
+                        <input type="number" name="Price" value="@product.Price" class="form-control" step="0.01" />
+                    </td>
+                    <td>
+                        <input type="number" name="Stock" value="@product.Stock" class="form-control" min="0" />
+                    </td>
+                    <td>
+                        <textarea name="Description" class="form-control">@product.Description</textarea>
+                    </td>
+                    <td>
+                        <input type="text" name="ImageURL" value="@product.ImageURL" class="form-control" />
+                    </td>
+                    <td>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </td>
+                    </form>
+                    <td>
+                        <form asp-action="DeleteProduct" method="post" class="d-inline">
+                            <input type="hidden" name="ProductID" value="@product.ProductID" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    <h2>Categories</h2>
+    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addCategoryModal">
+        Add Category
+    </button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in categories)
+            {
+                <tr>
+                    <form asp-action="UpdateCategory" method="post">
+                        <input type="hidden" name="CategoryID" value="@category.CategoryID" />
+                    <td>
+                        <input type="text" name="CategoryName" value="@category.CategoryName" class="form-control" />
+                    </td>
+                    <td>
+                        <input type="text" name="Description" value="@category.Description" class="form-control" />
+                    </td>
+                    <td>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </td>
+                    </form>
+                    <td>
+                        <form asp-action="DeleteCategory" method="post" class="d-inline">
+                            <input type="hidden" name="CategoryID" value="@category.CategoryID" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+    <h2>Users</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>@user.Role</td>
+                    <td>
+                        <form asp-action="UpdateUserRole" method="post" class="d-flex">
+                            <input type="hidden" name="userId" value="@user.UserID" />
+                            <select name="role" class="form-select">
+                                <option value="Admin" selected="@(user.Role == "Admin")">Admin</option>
+                                <option value="Customer" selected="@(user.Role == "Customer")">Customer</option>
+                            </select>
+
+                            <button type="submit" class="btn btn-primary ms-2">Update</button>
+                        </form>
+                        <form asp-action="DeleteUser" method="post" class="d-inline">
+                            <input type="hidden" name="userId" value="@user.UserID" />
+                            <button type="submit" class="mt-2 btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Customer Reviews</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>User</th>
+                <th>Rating</th>
+                <th>Comment</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var review in reviews)
+            {
+                <tr>
+                    <td>@review.Product?.Name</td>
+                    <td>@review.User?.Name</td>
+                    <td>@review.Rating</td>
+                    <td>@review.Comment</td>
+                    <td>
+                        <form asp-action="DeleteReview" method="post" class="d-inline">
+                            <input type="hidden" name="reviewId" value="@review.CustomerReviewID" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addProductModalLabel">Add Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form asp-action="AddProduct" method="post">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="productName" class="form-label">Product Name</label>
+                            <input type="text" name="Name" class="form-control" id="productName" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="productAuthor" class="form-label">Author</label>
+                            <input type="text" name="Author" class="form-control" id="productAuthor" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="productCategory" class="form-label">Category</label>
+                            <select name="CategoryID" class="form-select" id="productCategory" required>
+                                @foreach (var category in ViewBag.Categories)
+                                {
+                                    <option value="@category.CategoryID">@category.CategoryName</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="productPrice" class="form-label">Price</label>
+                            <input type="number" name="Price" class="form-control" id="productPrice" step="0.01" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="productStock" class="form-label">Stock</label>
+                            <input type="number" name="Stock" class="form-control" id="productStock" min="0" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="productDescription" class="form-label">Description</label>
+                            <textarea name="Description" class="form-control" id="productDescription" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="productImageURL" class="form-label">Image URL</label>
+                            <input type="text" name="ImageURL" class="form-control" id="productImageURL" required />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="addCategoryModal" tabindex="-1" aria-labelledby="addCategoryModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addCategoryModalLabel">Add Category</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form asp-action="AddCategory" method="post">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="categoryName" class="form-label">Category Name</label>
+                            <input type="text" name="CategoryName" class="form-control" id="categoryName" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="categoryDescription" class="form-label">Description</label>
+                            <textarea name="Description" class="form-control" id="categoryDescription" required></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Add Category</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

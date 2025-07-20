@@ -1,0 +1,72 @@
+﻿@model IEnumerable<EpicPanels_Group5_FinalProject.Models.Order>
+
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4">My Orders</h1>
+
+    @if (!Model.Any())
+    {
+        <p class="text-center">You have no orders.</p>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Order Date</th>
+                        <th>Total Amount</th>
+                        <th>Status</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.OrderID</td>
+                            <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                            <td>
+                                
+                                
+                                $@order.TotalAmount</td>
+                            <td>@order.Status</td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#orderDetails-@order.OrderID">View Details</button>
+                            </td>
+                        </tr>
+                        <tr class="collapse" id="orderDetails-@order.OrderID">
+                            <td colspan="5">
+                                <table class="table mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                            <th>Subtotal</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var detail in order.OrderDetails)
+                                        {
+                                            <tr>
+                                                <td>@detail.Product.Name</td>
+                                                <td>@detail.Quantity</td>
+                                                <td>$@detail.Price</td>
+                                                <td>$@(detail.Quantity * detail.Price)</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

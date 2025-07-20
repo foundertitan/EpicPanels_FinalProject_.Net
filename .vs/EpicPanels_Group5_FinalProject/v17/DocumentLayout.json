@@ -1,0 +1,601 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\migrations\\20241210202557_updatereviewq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\migrations\\20241210202557_updatereviewq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\migrations\\20241210201622_updatereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\migrations\\20241210201622_updatereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\migrations\\20241210002957_updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\migrations\\20241210002957_updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\migrations\\20241209233359_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\migrations\\20241209233359_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\checkoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\checkoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\comics\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\comics\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\carthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\carthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\customerreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\customerreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\comics\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\comics\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\migrations\\20241211062831_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\migrations\\20241211062831_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/EpicPanels/True/SqlTable/dbo.CustomerReviews.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\comics\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\comics\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/EpicPanels/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\comics\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\comics\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|c:\\users\\arati\\documents\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\epicpanels_group5_finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752ABCEC-E5C7-4FA9-90A8-B0EA42FFA4A8}|EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject.csproj|solutionrelative:epicpanels_group5_finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckoutModel.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CheckoutModel.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\CheckoutModel.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CheckoutModel.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\CheckoutModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:44:37.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241209233359_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241209233359_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Migrations\\20241209233359_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241209233359_InitialCreate.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Migrations\\20241209233359_InitialCreate.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:34:00.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241210002957_updateUser.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241210002957_updateUser.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Migrations\\20241210002957_updateUser.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241210002957_updateUser.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Migrations\\20241210002957_updateUser.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:29:57.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241210201622_UpdateReview.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241210201622_UpdateReview.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Migrations\\20241210201622_UpdateReview.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241210201622_UpdateReview.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Migrations\\20241210201622_UpdateReview.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:16:22.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241210202557_UpdateReviewq.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241210202557_UpdateReviewq.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Migrations\\20241210202557_UpdateReviewq.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241210202557_UpdateReviewq.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Migrations\\20241210202557_UpdateReviewq.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:25:57.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerReview.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CustomerReview.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\CustomerReview.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CustomerReview.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\CustomerReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:10:08.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartHelper.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CartHelper.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\CartHelper.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CartHelper.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\CartHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:17:59.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:24:42.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T06:18:09.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\Cart.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Comics\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\Cart.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Comics\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T00:58:49.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\Category.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:23:09.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\CartItem.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:59:41.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T02:44:10.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\Order.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T23:23:34.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:45:31.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\Product.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:22:47.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Models\\User.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:22:30.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Comics\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\Checkout.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Comics\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T06:45:43.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Account\\Signup.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Account\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Account\\Signup.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Account\\Signup.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T00:08:13.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T03:12:52.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:17:45.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ComicsController.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\ComicsController.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Controllers\\ComicsController.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\ComicsController.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Controllers\\ComicsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:17:43.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T23:20:27.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:29:44.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241211062831_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241211062831_Initial.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Migrations\\20241211062831_Initial.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Migrations\\20241211062831_Initial.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Migrations\\20241211062831_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:29:42.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T03:45:39.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T03:46:07.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\appsettings.json",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\appsettings.json",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T23:26:32.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dbo.CustomerReviews.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/EpicPanels/True/SqlTable/dbo.CustomerReviews.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/EpicPanels/True/SqlTable/dbo.CustomerReviews.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T20:20:26.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\Details.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Comics\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\Details.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Comics\\Details.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAABBwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T00:41:15.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwBwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T00:09:31.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "dbo.Orders.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/EpicPanels/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/EpicPanels/True/SqlTable/dbo.Orders.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-10T03:52:02.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T03:13:19.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T00:31:04.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Views\\Comics\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Views\\Comics\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Views\\Comics\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwCcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T02:51:16.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "EpicPanels_Group5_FinalProject\\Program.cs",
+              "ToolTip": "C:\\Users\\arati\\Documents\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\EpicPanels_Group5_FinalProject\\Program.cs",
+              "RelativeToolTip": "EpicPanels_Group5_FinalProject\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:31:11.079Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
